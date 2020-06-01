@@ -1,0 +1,11 @@
+C:\Users\Rochi\Desktop\UTN\programacion 3\TP3-NAHUELREVOLLO\Negocio\bin\Debug\Negocio.dll
+C:\Users\Rochi\Desktop\UTN\programacion 3\TP3-NAHUELREVOLLO\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Rochi\Desktop\UTN\programacion 3\TP3-NAHUELREVOLLO\Negocio\bin\Debug\Conexion_DB.dll
+C:\Users\Rochi\Desktop\UTN\programacion 3\TP3-NAHUELREVOLLO\Negocio\bin\Debug\Dominio.dll
+C:\Users\Rochi\Desktop\UTN\programacion 3\TP3-NAHUELREVOLLO\Negocio\bin\Debug\Conexion_DB.pdb
+C:\Users\Rochi\Desktop\UTN\programacion 3\TP3-NAHUELREVOLLO\Negocio\bin\Debug\Dominio.pdb
+C:\Users\Rochi\Desktop\UTN\programacion 3\TP3-NAHUELREVOLLO\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\Rochi\Desktop\UTN\programacion 3\TP3-NAHUELREVOLLO\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Rochi\Desktop\UTN\programacion 3\TP3-NAHUELREVOLLO\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Rochi\Desktop\UTN\programacion 3\TP3-NAHUELREVOLLO\Negocio\obj\Debug\Negocio.dll
+C:\Users\Rochi\Desktop\UTN\programacion 3\TP3-NAHUELREVOLLO\Negocio\obj\Debug\Negocio.pdb

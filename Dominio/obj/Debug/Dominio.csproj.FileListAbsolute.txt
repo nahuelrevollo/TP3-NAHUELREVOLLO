@@ -1,0 +1,6 @@
+C:\Users\Rochi\Desktop\UTN\programacion 3\TP3-NAHUELREVOLLO\Dominio\bin\Debug\Dominio.dll
+C:\Users\Rochi\Desktop\UTN\programacion 3\TP3-NAHUELREVOLLO\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Rochi\Desktop\UTN\programacion 3\TP3-NAHUELREVOLLO\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Users\Rochi\Desktop\UTN\programacion 3\TP3-NAHUELREVOLLO\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Rochi\Desktop\UTN\programacion 3\TP3-NAHUELREVOLLO\Dominio\obj\Debug\Dominio.dll
+C:\Users\Rochi\Desktop\UTN\programacion 3\TP3-NAHUELREVOLLO\Dominio\obj\Debug\Dominio.pdb

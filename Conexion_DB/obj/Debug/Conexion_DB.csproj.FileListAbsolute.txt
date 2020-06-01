@@ -1,0 +1,6 @@
+C:\Users\Rochi\Desktop\UTN\programacion 3\TP3-NAHUELREVOLLO\Conexion_DB\bin\Debug\Conexion_DB.dll
+C:\Users\Rochi\Desktop\UTN\programacion 3\TP3-NAHUELREVOLLO\Conexion_DB\bin\Debug\Conexion_DB.pdb
+C:\Users\Rochi\Desktop\UTN\programacion 3\TP3-NAHUELREVOLLO\Conexion_DB\obj\Debug\Conexion_DB.csprojAssemblyReference.cache
+C:\Users\Rochi\Desktop\UTN\programacion 3\TP3-NAHUELREVOLLO\Conexion_DB\obj\Debug\Conexion_DB.csproj.CoreCompileInputs.cache
+C:\Users\Rochi\Desktop\UTN\programacion 3\TP3-NAHUELREVOLLO\Conexion_DB\obj\Debug\Conexion_DB.dll
+C:\Users\Rochi\Desktop\UTN\programacion 3\TP3-NAHUELREVOLLO\Conexion_DB\obj\Debug\Conexion_DB.pdb

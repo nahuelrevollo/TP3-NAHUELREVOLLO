@@ -25,7 +25,7 @@
                         <td><% = compra.Nombre %></td>
                         <td><% = compra.Marca %></td>
                         <td><% = compra.Cantidad %></td>
-                        <td><% = "$"+ Convert.ToInt32( compra.Precio)+".00" %></td>
+                        <td><% = "$ "+ decimal.Round(compra.Precio, 2, MidpointRounding.AwayFromZero) %></td>
 
                         <td><a href="Carrito_Compras.aspx?idQuitar=<% = compra.ID.ToString() %>" class="btn btn-primary">Quitar</a></td>
                     </tr>

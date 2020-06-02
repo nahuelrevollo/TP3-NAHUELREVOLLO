@@ -7,7 +7,18 @@
     <h1>Listado de articulos </h1>
 
     
-    <asp:DropDownList runat="server" ID="ListaMarcas" data-toggle="dropdown"/> 
+   <div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Marcas
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    
+      <% foreach (var marca in Lista_marca) { %>
+                    <a href="Listado_Articulos.aspx?idmarca=<% = marca.ID.ToString() %>" class="dropdown-item"><% = marca.Descripcion %></a>
+                     <% } %>
+
+  </div>
+</div>
 
   <div class="card-columns" style="margin-left: 10px; margin-right: 10px;">
 
@@ -21,7 +32,7 @@
 
                 <h5 class="card-title"><% = art_s.Nombre %></h5>
                 <h6 class="card-title"><%=art_s.Marca.Descripcion %></h6>
-                <p class="card-text"><% = "$"+Convert.ToInt32(art_s.Precio)+".00" %>  </p>              
+                <p class="card-text"><% ="$ "+ decimal.Round(art_s.Precio, 2, MidpointRounding.AwayFromZero) %>  </p>              
                 <a  href="Descripcion.aspx?idart=<% =art_s.ID.ToString()%>" class="btn btn-primary" >Descripcion</a>
                 <a  href="Carrito_Compras.aspx?idcompra=<% =art_s.ID.ToString()%>" class="btn btn-primary">Agregar al carrito</a>
 

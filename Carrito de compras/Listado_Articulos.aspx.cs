@@ -24,18 +24,33 @@ namespace Carrito_de_compras
 				Negocio_articulo Neg_art = new Negocio_articulo();
 				Lista_art = Neg_art.listar();
 
-				Session[Session.SessionID + "Lista_art"] = Lista_art;
 
 				Negocio_marca marca = new Negocio_marca();
 
 				Lista_marca = marca.Listar();
 
-				ListaMarcas.DataSource = Lista_marca;
-				ListaMarcas.DataBind();
+				var filtro_marca = Request.QueryString["idmarca"];
 
-				
+				if (filtro_marca != null)
+				{
+					List<Articulo> L_art_aux = new List<Articulo>();
+					foreach (var item in Lista_art)
+					{
+						if (item.Marca.ID == int.Parse(filtro_marca))
+						{
+							L_art_aux.Add(item);
+						}
+					}
+					Lista_art = L_art_aux;
 
+					Session[Session.SessionID + "Lista_art"] = Lista_art;
 				}
+
+
+
+				Session[Session.SessionID + "Lista_art"] = Lista_art;
+
+			}
 			catch (Exception ex)
 			{
 
